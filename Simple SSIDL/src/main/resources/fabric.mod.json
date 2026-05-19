@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "csm_client",
+  "version": "1.0.0",
+  "name": "Simple SSIDL",
+  "authors": ["Benni"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["csm.csm.client.AccountModClient"]
+  },
+  "mixins": ["csm_client.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
