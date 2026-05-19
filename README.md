@@ -1,0 +1,3 @@
+Simple ssidl with Copy Paste and Reset function
+
+will probably add name change, auto refresh and config stuff alter (so you just upload the accounts.json and they get auto refreshed and saved)...
